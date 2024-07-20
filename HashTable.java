@@ -149,7 +149,7 @@ public class HashTable{
     divides the string into two parts, turns the two strings into integers, and then sums them.
     Finally, the hash value is % TABLE_SIZE to get the final result.
 
-    NEW VERSION: This function partitions the string into random sizes and then adds them together to maximize efficiency.
+    NEW VERSION: This function partitions the string into random sizes and then adds them together to maximize hashing efficiency.
      */
     public int hashFunctionFolding(String key) {
         int hash = getKeyValue(key);
